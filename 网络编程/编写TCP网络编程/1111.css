@@ -1,0 +1,138 @@
+body,div,ul,li{margin:0;padding: 0;}
+
+.all{
+    border:1px solid red;
+    width: 1000px;
+    height: 900px;
+}
+.top{
+    border: 2px solid pink;
+    width: 1000px;
+    height: 50px;
+}
+
+
+.list ul li{
+	float:left;
+	margin-left:25px;
+	margin-top:20px
+}
+
+
+
+
+
+
+
+
+
+
+.left{
+    border:1px solid blue;
+    background-color: darksalmon;
+    width: 200px;
+    height: 500px;
+    display:inline-block;
+    float: left;
+}
+
+.menu ul li{
+	float: left;
+	margin-left: 30px;
+	margin-top: 30px;
+	color: black;
+}
+.fla ul li{
+	font-size: 12px;
+}
+ul{  list-style:none;  }
+.case ul{display: none;}    /*先让li中的分类隐藏
+    /*:伪样式：hover*/
+.case:hover ul{display: block;}   /*鼠标碰上让其再显示*/
+.case:hover span{color:green;}        /*鼠标碰上后 span中的字体变成绿色*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.right{
+    border: 1px solid black;
+    width: 750px;
+    height: 500px;
+    display:inline-block;
+}
+
+.right_img{
+   border: 1px solid red;
+    width: 200px;
+    height: 330px;
+    display: inline-block;
+
+}
+.img1 img{
+    width: 200px;
+    height: 280px;
+    display: inline-block;
+    float: left;
+}
+.right_img  span{
+    margin-left: 55px;
+}
+.price{
+    font-size:15px;
+    color: #ff0000;
+    margin-top: 5px;
+    font-weight: bold;
+    display: inline-block;
+    border:1px solid red;
+}
+.but{
+    display: inline-block;
+    border: 1px solid red ;
+    margin-top: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*.img1{*/
+    /*border: 1px solid blue;*/
+    /*width: 200px;*/
+    /*height: 300px;*/
+
+/*}*/
+/*.img1 .img1_1{*/
+    /*width: 200px;*/
+    /*height: 270px;*/
+   /*!* text-align:center;*!*/
+/*}*/
+/*.img1 .price{*/
+    /*font-size:10px;*/
+    /*color: #ff0000;*/
+
+/*}*/
